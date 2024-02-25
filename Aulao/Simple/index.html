@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividades</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  </head>
+  <body>
+    <h1>Atividades simples</h1>
+    <main>
+      <section>
+        <h2>Calculo simples</h2>
+        <input id="num01" type="number" placeholder="Digite um numero" />
+        <br />
+        <br />
+        <input id="num02" type="number" placeholder="Digite outro numero" />
+        <br />
+        <br />
+        <button onclick="calcular()">Calcular</button>
+        <br />
+        <p id="res"></p>
+      </section>
+      <section>
+        <h2>Media escolar (6)</h2>
+        <p>(A) - aprovado / (R) - reprovado</p>
+        <input id="prova01" type="number" placeholder="Nota 01" />
+        <br />
+        <br />
+        <input id="prova02" type="number" placeholder="Nota 02" />
+        <br />
+        <br />
+        <input id="prova03" type="number" placeholder="Nota 03" />
+        <br />
+        <br />
+        <button onclick="media()">Calcular</button>
+        <br />
+        <p id="media"></p>
+      </section>
+      <section>
+        <h2>Contador em JavaScript</h2>
+        <form id="contadorForm">
+          <label for="numeroInput">Informe o número:</label>
+          <input
+            type="number"
+            id="numeroInput"
+            placeholder="Digite um número inteiro"
+            required
+          />
+          <button type="button" onclick="contar()">Contar</button>
+        </form>
+        <p id="resultado"></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
